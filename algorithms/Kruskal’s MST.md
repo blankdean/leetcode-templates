@@ -65,7 +65,7 @@ Kruskal's algorithm is a method for finding the minimum spanning tree in a weigh
 Consider the following graph:
 
 ```
-Copy code  1-----2
+  1-----2
   |\   /|
   | \ / |
   |  5  |
@@ -126,3 +126,4 @@ The weight of this tree is 1 + 2 + 3 + 3 = 9, which is the minimum possible weig
 ## Time complexity
 
 Kruskal's algorithm has a time complexity of O(E log E), where E is the number of edges in the graph. This is because the algorithm sorts the edges by weight, which takes O(E log E) time.
+
