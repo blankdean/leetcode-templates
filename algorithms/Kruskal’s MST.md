@@ -57,18 +57,17 @@ Starting with an empty tree, we add the edges in order, as long as they do not c
 | 2       | 2-4        |
 | 1       | 1-2        |
 | 4       | 4-5        |
-| 3       | 1-5        |
 
 At this point, adding any more edges would create a cycle, so we stop. The final tree is:
 
 ```
   1-----2
-  |     |
-  |     |
-  |  5  |
-  |     |
-  |     |
-  3-----4
+        |
+        |
+     5  |
+    / \ |
+   /   \|
+  3     4
 ```
 
 The weight of this tree is 1 + 2 + 3 + 3 = 9, which is the minimum possible weight for any tree that includes all of the vertices.
